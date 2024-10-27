@@ -1,0 +1,72 @@
+* {
+    font-family: "Outfit", serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: hsl(212, 45%, 89%);
+    justify-content: center;
+    /* align-items: center; apakah ini penting untuk ditulis dan ditentukan ? */ 
+    /* min-height: 100vh; */
+    /* margin-top: 50px; */
+    
+}
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* justify-content: center; */
+    margin: 20px;
+    gap: 1rem;
+    align-items: center;
+    padding-block: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-align: center;
+}
+h1 {
+    padding: 0px 1.1rem;
+    /* padding: 2px; */
+    /* text-align: center; */
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+ }
+
+/* qr image  */
+.img {
+    width: 350px;
+}
+
+.img .qr-image {
+    width: 100%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}   
+
+ 
+
+p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    /* text-align: center; */
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+    padding: 10px 3.8rem;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+  }
